@@ -21,8 +21,9 @@ Now, I can download the book thanks to this PoC and read my book where I don't h
 About the law...
 ----------------
 
-In France, the copyright (called "Droit d'auteur") law has an exception called "private copy" ("Copie privée") :
-> You may create a copy of something if the goal is a private usage. Two origins are public diffusion and bought things.
+In France, the copyright (called "Droit d'auteur") law [L122-5](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006069414&idArticle=LEGIARTI000006278917) has an exception called "private copy" ("Copie privée") :
+> When the work has been divulged, the author may not prohibit [...] Copies or reproductions made from a lawful source and strictly reserved for the private use of the copier and not intended for collective use, [...].
+
 So, you are not able to use this script to publish a book on a hidden network :)
 
 Requirements
@@ -45,9 +46,9 @@ Steps :
 - your cookie value __ENI\_Editions_Portail__: **line 31**
 2. Execute `~/[...]/ENIDownloader-master $ npm run crawl`
 - Check pdf in **./docs/** directory. If a file is < than 3ko, crawl failed. Check the number in the file name, uncomment lines 43/47, change the number, and back to step 1 : URL can change for the same book.
-3. Execute `~/[...]/ENIDownloader-master $ npm run merge` to merge all pdf files in a single file, to remove footer and add a right "Page x of x" :)
+3. Execute `~/[...]/ENIDownloader-master $ npm run merge` to merge all pdf files in a single file and add a right "Page x of x" :)
 
 Contribution
------
+------------
 
 Being a padawan, all contributions will be welcome :)
