@@ -29,8 +29,5 @@ crashlytics-build.properties
 
 # NPM
 /node_modules
-<<<<<<< HEAD
 cpdf
-=======
->>>>>>> ff07ac7724a2ee5f26f554ca5da4d587738b1258
 
