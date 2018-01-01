@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-casperjs --verbose --cookies-file=cookies.txt app.js
+./node_modules/casperjs/bin/casperjs --verbose --cookies-file=cookies.txt app.js
