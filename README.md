@@ -45,10 +45,10 @@ Steps :
 - your cookie value __\__rsaxc__: **line 29**
 - your cookie value __\__hnwky__: **line 30**
 - your cookie value __ENI\_Editions_Portail__: **line 31**
-2. Execute `~/[...]/ENIDownloader-master $ ./crawl.sh`
+2. Execute `~/[...]/ENIDownloader-master $ npm run crawl`
 - Check pdf in **./docs/** directory. If a file is < than 3ko, crawl failed. Check the number in the file name, uncomment lines 43/47, change the number, and back to step 1 : URL can change for the same book.
-3. Execute `~/[...]/ENIDownloader-master $ node ./merge.js` to merge all pdf files in a single file. 
-4. Optionally, you can execute `~/[...]/ENIDownloader-master $ ./fix-footer.sh` to remove footer and add a right "Page x of x" :)
+3. Execute `~/[...]/ENIDownloader-master $ npm run merge` to merge all pdf files in a single file. 
+4. Optionally, you can execute `~/[...]/ENIDownloader-master $ npm run fix-footer` to remove footer and add a right "Page x of x" :)
 
 Contribution
 -----
