@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "crawl": "./crawl.sh",
-    "merge": "node ./merge.js",
-    "fix-footer": "./fix-footer.sh"
+    "merge": "node ./merge.js && ./fix-footer.sh"
   },
   "repository": {
     "type": "git",
