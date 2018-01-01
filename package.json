@@ -1,0 +1,19 @@
+{
+  "name": "enidownloader-master",
+  "version": "1.0.0",
+  "description": "Download a full PDF from Editions ENI. Fork project from Nainterceptor/ENIDownloader.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrienBEH/ENIDownloader.git"
+  },
+  "author": "Adrien BEHADIR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrienBEH/ENIDownloader/issues"
+  },
+  "homepage": "https://github.com/AdrienBEH/ENIDownloader#readme"
+}
