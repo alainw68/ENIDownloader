@@ -4,7 +4,9 @@
   "description": "Download a full PDF from Editions ENI. Fork project from Nainterceptor/ENIDownloader.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "crawl": "./crawl.sh",
+    "merge": "node ./merge.js",
+    "fix-footer": "./fix-footer.sh"
   },
   "repository": {
     "type": "git",

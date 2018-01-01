@@ -28,6 +28,5 @@ crashlytics.properties
 crashlytics-build.properties
 
 # NPM
-/package-lock.json
 /node_modules
 
