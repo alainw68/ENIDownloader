@@ -1,6 +1,14 @@
 var merge = require(`./node_modules/easy-pdf-merge/index.js`);
 
-merge(/([\w\d.pdf]*)/g,`./docs/doc.pdf`,function(err){
+const path = './docs/';
+const fs = require('fs');
+let files = []
+
+fs.readdirSync(path).forEach(file => {
+    files.push(path + file);
+})
+
+merge(files,`./docs/doc.pdf`,function(err){
 
           if(err)
           return console.log(err);
